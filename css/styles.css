@@ -2,6 +2,7 @@
   --primary-text-color: #00000;
   --accent-color: #2196f3;
   --primary-contact-color: #757575;
+  --primary-wite-color: #ffffff;
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -52,3 +53,13 @@ body {
 /* footer */
 
 /* portfolio.html */
+
+.btn-filter {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.filter .btn-filter:hover,
+.filter .btn-filter:focus {
+  color: var(--primary-wite-color);
+  background-color: var(--accent-color);
+}
