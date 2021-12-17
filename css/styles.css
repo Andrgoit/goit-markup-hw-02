@@ -7,7 +7,7 @@
   --hero-text-color: #ffffff;
   --color-text-title: #212121;
 }
-
+/* ----------  GENERAL SETTINGS  ---------- */
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--background-color);
@@ -35,13 +35,13 @@ body {
   margin: -1px;
 }
 
-/* page header */
+/* ----------  PAGE HEADER  ---------- */
 
 .header {
   background-color: #ffffff;
 }
 
-/* Logo */
+/* ----------  LOGO  ---------- */
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -116,7 +116,7 @@ body {
   cursor: pointer;
 }
 
-/* ----------  feature  ---------- */
+/* ----------  FEATURE  ---------- */
 
 .feature {
 }
@@ -215,7 +215,7 @@ body {
 /* ----------     PORTFOLIO.HTML    ---------- */
 /* ПОРТФОЛИО */
 
-.filter {
+.portfolio-page {
 }
 
 .filter-list {
@@ -232,11 +232,15 @@ body {
   color: #212121;
   cursor: pointer;
 }
-.filter .btn-filter:hover,
-.filter .btn-filter:focus {
+
+.filter-list .btn-filter:hover,
+.filter-list .btn-filter:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
+/* ----------  PROJECTS  ---------- */
+
 .projects {
   background-color: #ffffff;
 }
